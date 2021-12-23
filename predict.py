@@ -1,8 +1,7 @@
 from PIL import Image
-import tensorflow as tf
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from keras.preprocessing.image import load_img, img_to_array
 import numpy as np
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 
 model = load_model('./pd_model.hdf5', compile=False)
 kelas = {0:'Panik', 1:'Tidak Panik'}
