@@ -1,4 +1,4 @@
-from predict import process_image
+#from predict import process_image
 import streamlit as st
 from PIL import Image
 
@@ -511,10 +511,10 @@ def load_skrining():
                 with open(save_image_path, "wb") as f:
                     f.write(foto.getbuffer())
                 
-                if st.button("Simpan"):
-                    hasil = process_image(save_image_path)
-                    print(hasil)    
-                    st.success("Ekspresi Anda menunjukkan bahwa anda sedang: "+hasil)
-                    if hasil=='Panik':
-                        st.write('Panik dapat mengakibatkan naiknya tekanan darah')
-                        st.write('Sebelum berangkat konsumsilah telur dan buah, atau sarapan sehat lainnya terlebih dahulu')
+                # if st.button("Simpan"):
+                #     hasil = process_image(save_image_path)
+                #     print(hasil)    
+                #     st.success("Ekspresi Anda menunjukkan bahwa anda sedang: "+hasil)
+                #     if hasil=='Panik':
+                #         st.write('Panik dapat mengakibatkan naiknya tekanan darah')
+                #         st.write('Sebelum berangkat konsumsilah telur dan buah, atau sarapan sehat lainnya terlebih dahulu')
