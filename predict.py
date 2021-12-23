@@ -3,7 +3,7 @@ from keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 from keras.models import load_model
 
-model = load_model('./model.h5', compile=False)
+model = load_model('./pd_model.hdf5', compile=False)
 kelas = {0:'Panik', 1:'Tidak Panik'}
 def process_image(img_path):
     img = load_img(img_path, target_size=(150,150))
