@@ -32,7 +32,7 @@ notes = [
     'Vaksinasi ke-2 tidak diberikan, bawalah hasil ini ke Lokasi Vaksinasi untuk mendapatkan surat keterangan',
     'Vaksinasi ditunda sampai melahirkan',
     'Jika tidak dalam kondisi akut silakan datang ke lokasi Vaksinasi untuk pemeriksaan lebih lanjut',
-    'Vaksinasi ditunda dan Dirujuk',
+    'Vaksinasi ditunda. Mintalah surat rujukan Rumah Sakit atau Dokter ke petugas Vaksinasi untuk diperiksa lebih lanjut',
     'Silakan datang ke lokasi Vaksinasi untuk pengecekan Tekanan Darah dan Suhu Tubuh',
     'Vaksinasi tidak dapat diberikan, berikan keterangan ini jika Ada keperluan yang membutuhkan surat Vaksinasi'
 ]
