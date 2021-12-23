@@ -515,3 +515,6 @@ def load_skrining():
                     hasil = process_image(save_image_path)
                     print(hasil)    
                     st.success("Ekspresi Anda menunjukkan bahwa anda sedang: "+hasil)
+                    if hasil=='Panik':
+                        st.write('Panik dapat mengakibatkan naiknya tekanan darah')
+                        st.write('Sebelum berangkat konsumsilah telur dan buah, atau sarapan sehat lainnya terlebih dahulu')
