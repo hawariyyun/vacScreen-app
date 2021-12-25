@@ -64,6 +64,11 @@ def load_skrining():
         anda hanya perlu cek tekanan darah dan suhu tubuh dan anda akan segera 
         ditangani untuk divaksinasi
         ''')
+        st.write(
+            f'<meta name="dicoding:email" content="rifki26@student.ub.ac.id">',
+            f'<meta name="dicoding:email" content="shellyvictory92@gmail.com">',
+            unsafe_allow_html=True
+        )
 
     # MAIN
     with main:
